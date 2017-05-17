@@ -1,2 +1,2 @@
 # debadvect
-FEM model for englacial debris transport
+this repository contains a development version of my FEM model for englacial debris transport

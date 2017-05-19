@@ -26,7 +26,7 @@
 
 """
 
-data_dir = '/PATH/TO/YOUR/HOME/2D_frutos'
+data_dir = '/PATH/TO/YOUR/HOME/2D_btest'
 cmaxF = 0.5
 c_tol = 1.e-2
 decimals_mesh = 0

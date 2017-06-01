@@ -39,7 +39,7 @@ import numpy as np
 
 run_params = dict(
     fname = "box",
-    D_diff = 1.e-9,
+    D_diff = 1.e-6,
     mass_initial = 0.0,
     mass_previous = 0.0,
     velmax = 0.0,

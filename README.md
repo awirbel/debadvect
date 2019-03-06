@@ -17,7 +17,7 @@ After you have cloned the repo to your machine with
 ```shell
 git clone https://github.com/awirbel/debadvect.git
 ```
-you can download the singularity container form icetools release v1.2.0 called [fenics_icetools.simg](https://github.com/alexjarosch/icetools/releases/download/v1.2.0/fenics_icetools.simg) (approx 1.5 GB).
+you can download the singularity container from icetools release v1.2.0 called [fenics_icetools.simg](https://github.com/alexjarosch/icetools/releases/download/v1.2.0/fenics_icetools.simg) (approx 1.4 GB).
 Place this container in the `2D_btest` directory.
 
 Given that your singularity and gmsh installs are working, you should be able to run the `2D_btest` case as described in its readme file.

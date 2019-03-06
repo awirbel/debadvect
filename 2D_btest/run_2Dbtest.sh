@@ -1,20 +1,18 @@
 #!/bin/bash
 set -e
 
+singularity exec fenics_icetools.simg python cfg.py
 
-python cfg.py
+singularity exec fenics_icetools.simg python makeFiles.py
 
-python makeFiles.py
+singularity exec fenics_icetools.simg python read_inputfiles.py
 
-python read_inputfiles.py
-
-python refine_gl2D.py
-python advect_gl.py
+singularity exec fenics_icetools.simg python refine_gl2D.py
+singularity exec fenics_icetools.simg python advect_gl.py
 
 for i in {1..20}
 do
-    python refine_gl2D.py
-    python advect_gl.py
+    singularity exec fenics_icetools.simg python refine_gl2D.py
+    singularity exec fenics_icetools.simg python advect_gl.py
 
 done
-

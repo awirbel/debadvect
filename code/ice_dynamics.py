@@ -1,9 +1,9 @@
 """
     icetools code Newton iteration version
 
-    original version can be found: https://sourceforge.net/projects/icetools/
+    original version can be found: https://github.com/alexjarosch/icetools
 
-    Copyright 2015-2017 Alexander H. Jarosch, modified by Anna Wirbel
+    Copyright 2015-2019 Alexander H. Jarosch, modified by Anna Wirbel
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
